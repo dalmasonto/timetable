@@ -1,0 +1,13 @@
+/* Light mode */
+:root {
+  --box-shadow: 0 0 20px rgba(197, 197, 197, 0.322);
+  --background: white;
+  --color: #333;
+  --color-secondary: rgba(223, 223, 223, 0.349);
+  --color-tertiary: #999;
+  --color-quaternary: #ccc;
+  --color-quinary: #eee;
+  --color-quinary-dark: #ddd;
+  --color-primary: #00a0d2;
+  --color-primary-hover: #00a4d61a;
+}

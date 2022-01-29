@@ -1,0 +1,13 @@
+/* Dark mode */
+:root {
+  --background: #333;
+  --box-shadow: 0 0 20px rgba(105, 105, 105, 0.26);
+  --color: #fff;
+  --color-secondary: rgba(80, 80, 80, 0.596);
+  --color-tertiary: #999;
+  --color-quaternary: #ccc;
+  --color-quinary: rgba(238, 238, 238, 0.295);
+  --color-quinary-dark: #ddd;
+  --color-primary: #00a0d2;
+  --color-primary-hover: #00a1d234;
+}
