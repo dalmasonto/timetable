@@ -15,6 +15,7 @@ body {
     sans-serif;
   scroll-behavior: smooth;
   scroll-margin-top: 420px;
+  position: relative;
 }
 
 .container {
@@ -70,6 +71,11 @@ body {
   cursor: pointer;
 }
 
+.circular-btn:focus {
+  background: none;
+  outline: none;
+}
+
 .content {
   /* flex: 5; */
   width: calc(100% - 250px);
@@ -104,7 +110,7 @@ body {
 }
 
 .form .input_holder {
-  flex: 0.4;
+  flex: 1;
   min-width: 300px;
   display: flex;
   flex-direction: column;
@@ -283,7 +289,7 @@ h6 {
 
   .content {
     width: 100%;
-    padding: 6px;
+    /* padding: 6px; */
   }
 
   .form {
